@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: blanchedalmond;
+    background-image: url("images/bg09.jpg");
+    
+}
+h1,p,ul{
+    text-align: center;
+    color: blue;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
