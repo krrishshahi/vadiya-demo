@@ -4,15 +4,56 @@
 }
 body{
     background-color: blanchedalmond;
-    background-image: url("images/bg09.jpg");
+    background-image: url("images/barishhhhh.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 h1,p,ul{
-    text-align: center;
-    color: blue;
+    
+    color: white;
 }
 nav{
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+#header{
+    width:100% ;
+    height: 100vh;
+    background-image:url("images/") ;
+    background-position: cover;
+    background-size: cover;
+}
+.container{
+    padding: 10px 10%;
+}
+nav ul li{
+    display: inline-block;
+    margin:10px 15px;
+    list-style: none;
+    
+}
+nav ul li a {
+    color: white ;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a ::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background:#ff004f ;
+    position: absolute ;
+    left: 0;
+    bottom: -6px; 
+}
+.header-text{
+    margin-top: 0%;
+    font-size: 30px;
+}
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 40px
 }
